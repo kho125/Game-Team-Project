@@ -1,8 +1,12 @@
 import { useRouter } from "next/router";
-import SignInUpUI from "./SignInUp.presenter";
+import LayoutHeaderUI from "./LayoutHeader.presenter";
 
-export default function SignInUp() {
+export default function LayoutHeader() {
   const router = useRouter();
+
+  function onClickLogo() {
+    router.push("/");
+  }
 
   function onClickMoveToLogin() {
     router.push("/login");
@@ -13,7 +17,8 @@ export default function SignInUp() {
   }
 
   return (
-    <SignInUpUI
+    <LayoutHeaderUI
+      onClickLogo={onClickLogo}
       onClickMoveToLogin={onClickMoveToLogin}
       onClickMoveToSignup={onClickMoveToSignup}
     />
