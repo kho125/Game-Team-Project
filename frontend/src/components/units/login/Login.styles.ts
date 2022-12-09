@@ -11,7 +11,6 @@ export const LoginWrapper = styled.div`
   margin: 0 auto;
   height: 100%;
   /* background-color: #f1f1f1; */
-
 `
 
 export const LoginHeader = styled.div`
