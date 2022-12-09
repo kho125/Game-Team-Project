@@ -30,6 +30,7 @@ export default function SignupUI() {
             type="password"
             name="repassword"
           />
+          <S.JoinBtn>가입하기</S.JoinBtn>
         </S.Infor>
       </S.SignupWrapper>
     </S.Wrapper>

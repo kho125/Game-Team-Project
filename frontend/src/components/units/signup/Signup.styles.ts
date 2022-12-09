@@ -4,13 +4,14 @@ export const Wrapper = styled.div`
   height: 100vh;
   background-color: #fff;
   color: #000;
-  /* background-color: #f1f1f1; */
 `;
 
 export const SignupWrapper = styled.div`
   width: 300px;
   margin: 0 auto;
   height: 100%;
+  /* background-color: #f1f1f1; */
+
 `
 
 export const SignupHeader = styled.div`
@@ -19,9 +20,7 @@ export const SignupHeader = styled.div`
   font-size: 50px;
   font-weight: 700;
 `
-export const Infor = styled.div`
-  /* text-align: center; */
-`
+export const Infor = styled.div``
 
 export const Title = styled.div`
   font-size: 22px;
@@ -68,7 +67,7 @@ export const PasswordInput = styled.input`
 `
 
 export const Password2Input = styled.input`
-  margin-bottom: 34px;
+  margin-bottom: 20px;
   width: 300px;
   height: 36px;
   border: none;
@@ -77,5 +76,21 @@ export const Password2Input = styled.input`
   outline: none;
   :focus {
     border-bottom: 2px solid #06f;
+  }
+`
+
+export const JoinBtn = styled.button`
+  width: 300px;
+  height: 42px;
+  border: none;
+  font-size: 20px;
+  background-color: #ff4d4d;
+  cursor: pointer;
+  color: #fff;
+  transition: .4s;
+  :hover {
+    background-color: #ff3838;
+    font-size: 22px;
+    transition: .4s;
   }
 `
