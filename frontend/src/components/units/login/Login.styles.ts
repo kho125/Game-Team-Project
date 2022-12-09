@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
 `;
 
 export const LoginWrapper = styled.div`
+  padding-top: 100px; 
   width: 300px;
   margin: 0 auto;
   height: 100%;
@@ -14,7 +15,7 @@ export const LoginWrapper = styled.div`
 `
 
 export const LoginHeader = styled.div`
-  margin: 100px 0 40px 0;
+  margin-bottom: 30px;
   text-align: center;
   font-size: 50px;
   font-weight: 700;

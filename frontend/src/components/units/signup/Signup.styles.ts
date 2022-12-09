@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
 `;
 
 export const SignupWrapper = styled.div`
+  padding-top: 100px; 
   width: 300px;
   margin: 0 auto;
   height: 100%;
@@ -15,7 +16,7 @@ export const SignupWrapper = styled.div`
 `
 
 export const SignupHeader = styled.div`
-  margin: 100px 0 40px 0;
+  margin-bottom: 30px;
   text-align: center;
   font-size: 50px;
   font-weight: 700;
