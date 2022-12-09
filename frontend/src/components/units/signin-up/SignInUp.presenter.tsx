@@ -1,7 +1,6 @@
 import * as S from "./SignInUp.styles";
 
 export default function SignInUpUI(props: any) {
-  // props: any 수정
   return (
     <S.Wrapper>
       <S.LoginSignupWrapper>
